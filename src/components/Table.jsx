@@ -13,7 +13,6 @@ const Table = ({ sat }) => {
      </thead>
      <tbody>
       {sat.map((data) =>{
-        console.log(data.name);
        return(
           <tr key={data.id}>
            <td>{data.name}</td>
